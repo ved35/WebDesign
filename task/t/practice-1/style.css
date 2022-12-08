@@ -97,13 +97,24 @@ img{
 
 .btn{
     background-color: #f9506f;
-    color: white;
+    color: #f7f7f7;
     height: 50px;
     width: 140px;
     font-weight: 600;
     border: none;
     border-radius: 10px;
 }
+.btn:hover{
+    border: 2px solid  #f9506f ;
+    background-color: #f7f7f7 ;
+    color: #f9506f;
+    height: 50px;
+    width: 140px;
+    font-weight: 600;
+
+    border-radius: 10px;
+}
+
 .lorem{
     color: gray;
     padding-bottom: 33px;

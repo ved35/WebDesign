@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <title>Document</title>
+    <style>
+        #main {
+            text-align: center;
+            height: 300px;
+            width: 300px;
+            margin: auto;
+            margin-top: 300px;
+        }
+
+        .bor {
+            margin-top: 50px;
+        }
+
+        .fa-circle-play {
+            font-size: 50px;
+            border-radius: 50%;
+            animation: play 1s linear infinite;
+            transition: 0.3s ease-out;
+        }
+
+        @keyframes play{
+            0%{
+                box-shadow: 0 0 0 0px rgb(79, 73, 73) , 0 0 0 10px rgb(156, 153, 153) , 0 0 0 20px rgb(202, 200, 200);              
+            }
+            100%{
+                box-shadow: 0 0 0 10px rgb(110, 109, 109) , 0 0 0 20px rgb(156, 153, 153) , 0 0 0 30px  rgb(202, 200, 200);;  
+            }
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <div class="bor">
+            <span class="fa-solid fa-circle-play" id="play"></span>
+        </div>
+    </div>
+</body>
+
+</html>
