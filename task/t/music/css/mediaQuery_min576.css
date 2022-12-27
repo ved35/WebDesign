@@ -1,0 +1,196 @@
+@media(min-width : 576px){
+     /* ========================== Header-nav ============================ */
+     .header {
+        background-color: black;
+        width: 100%;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+    .header .container {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .header .container .nav {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        justify-content: space-around;
+    }
+    .header .container .nav .menu {
+        display: flex;
+        /* flex: 1; */
+        align-items: center;
+        padding-right: 10px;
+        display: none;
+    }
+    .menu-bar {
+        background-color: #ff4c4c;
+        color: #fff;
+        font-size: 16px;
+        width: 25px;
+        text-align: center;
+        border-radius: 5px;
+        height: 25px;
+        display: inline;
+    }
+
+    /* ========================== front-page ============================ */
+        .bg-img .img-bg .bg-content {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        height: 100%;
+        padding: 50px;
+        padding-left: 50px;
+        z-index: 0;
+    }
+    /* ========================== about-page ============================ */
+    .about {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-color: #19211e;
+    }
+    .about .container-about {
+        max-width: 540px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+    }
+    .about .container-about .about-item {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .about .container-about .about-item .about-img {
+        margin: 20px;
+        margin-top: 50px;
+        position: relative;
+        z-index: 0;
+    }
+    /* ========================== classes-page ============================ */
+    .music-classes .container-classes {
+        max-width: 540px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .music-classes .container-classes h2 {
+        font-size: 42px;
+        font-weight: bold;
+        color: white;
+        line-height: 58px;
+        text-align: center;
+    }
+
+    .music-classes .container-classes .classes {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    /* ========================== image-block ============================ */
+
+    .img-block .container-block {
+        max-width: 520px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .img-block .container-block .block {
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .img-block .container-block .block .content{
+        text-align: left;
+        height: auto;
+        margin-bottom: 50px;
+    }
+
+    .img-block .container-block .block .content .prag {
+        font-size: 16px;
+        line-height: 30px;
+        color: white;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .img-block .block .img .row {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+    /* ========================== video-block ============================ */
+
+    .video .video-container {
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 50px;
+    }
+
+    .video .video-container .flex-padding .vid-img {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        align-items: center;
+        max-height: 540px;
+        border-radius: 12px;
+        overflow: hidden;
+        width: 500px;
+        position: relative;
+        z-index: 0;
+    }
+    /* ========================== why-block ============================ */
+
+    .why .why-container {
+        max-width: 520px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .why .cont {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 50px;
+    }
+
+    .why .cont .img-ab {
+        height: 520px;
+        width: 500px;
+        overflow: hidden;
+    }
+    /* ========================== subscribe-block ============================ */
+    .subscribe .sub-container {
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .subscribe .center .email {
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* ========================== Contat-block ============================ */
+    
+    .contact .contact-container {
+        max-width: 520px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* ========================== Footer-block ============================ */
+
+    .footer .foot-container {
+        max-width: 520px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer .box {
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+        gap: 50px;
+    }
+}
